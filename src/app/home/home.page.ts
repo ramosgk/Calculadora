@@ -62,12 +62,13 @@ export class HomePage {
           }
           break;
 
-          case "x^":
-          this.resultado = Math.pow(primeiro , segundo).toString();
-          break;
-          case "√":
-            this.resultado = Math.sqrt(segundo).toString();
-            break;
+          case "^":
+  this.resultado = Math.pow(primeiro, segundo).toString();
+  break;
+case "√":
+  this.resultado = Math.sqrt(segundo).toString();
+  break;
+
 
       }
       this.operador_selecionado = false;
